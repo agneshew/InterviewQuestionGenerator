@@ -9,7 +9,7 @@ public class NumberGenerator {
     private int randomNumberOfQuestion;
 
     public int drawQuestionNumber(int numberOfQuestions) {
-        randomNumberOfQuestion = generator.nextInt(numberOfQuestions);
+        randomNumberOfQuestion = (generator.nextInt(numberOfQuestions) + 1);
         return randomNumberOfQuestion;
     }
 }
