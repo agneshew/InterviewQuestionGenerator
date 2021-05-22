@@ -17,5 +17,5 @@ public class Questions {
     @NotNull
     private String question;
     private String answer;
-    
+
 }
